@@ -1,4 +1,4 @@
-import Highway from '@dogstudio/highway';
+import Highway from "../node_modules/@dogstudio/highway";
 
 import {
     TimelineLite
