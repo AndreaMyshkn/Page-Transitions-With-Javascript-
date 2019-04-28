@@ -15942,7 +15942,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _highway = _interopRequireDefault(require("../node_modules/@dogstudio/highway"));
+var _highway = _interopRequireDefault(require("../node_modules/@dogstudio/highway/build/highway.js"));
 
 var _gsap = require("gsap");
 
@@ -16022,21 +16022,22 @@ function (_Highway$Transition) {
 
 var _default = Fade;
 exports.default = _default;
-},{"../node_modules/@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.js","gsap":"node_modules/gsap/index.js","tls":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js"}],"index.js":[function(require,module,exports) {
+},{"../node_modules/@dogstudio/highway/build/highway.js":"node_modules/@dogstudio/highway/build/highway.js","gsap":"node_modules/gsap/index.js","tls":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
-var _highway = _interopRequireDefault(require("../node_modules/@dogstudio/highway"));
+var _highway = _interopRequireDefault(require("../node_modules/@dogstudio/highway/build/highway.js"));
 
 var _transition = _interopRequireDefault(require("./transition.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import highway from "@dogstudio/highway"
 var H = new _highway.default.Core({
   transitions: {
     default: _transition.default
   }
 });
-},{"../node_modules/@dogstudio/highway":"node_modules/@dogstudio/highway/build/highway.js","./transition.js":"transition.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../node_modules/@dogstudio/highway/build/highway.js":"node_modules/@dogstudio/highway/build/highway.js","./transition.js":"transition.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
